@@ -1,0 +1,1 @@
+// memento pattern (to restore the state of an object to its previous state - undo ;snapshot )
