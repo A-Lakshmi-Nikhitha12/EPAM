@@ -3,7 +3,7 @@ public class Vegetable
 {  
 	private double vprice;  
 	private String vname;  
-	Fruit(double vPrice, String vName)  
+	Vegetable(double vPrice, String vName)  
 	{   
 		vprice = vPrice;  
 		vname = vName;  
@@ -12,8 +12,8 @@ public class Vegetable
 	Vegetable(Vegetable vegetable)  
 	{  
 		System.out.println("\nAfter invoking the Copy Constructor:\n");  
-		vprice = vegetable.fprice;  
-		vname = vegetable.fname;  
+		vprice = vegetable.vprice;  
+		vname = vegetable.vname;  
 	}  
 //creating a method that returns the price of the fruit  
 	double showPrice()  

@@ -4,7 +4,7 @@
 class Singleton {
 	private static Singleton single_instance = null;
 	public String s;
-	private Singleton()
+	private Singleton() // only one instance is created if we try to create other then it generates run time error 
 	{
 		s = "Hello I am a string part of Singleton class";
 	}
